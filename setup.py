@@ -19,9 +19,9 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
     name='mlproject',
-    version='1.1.0',
+    version='0.5.0',
     author='Nitin Kumar',
     author_email='nktyagi423@gmail.com',
     packages=find_packages(),
-    install_require = get_requirements('requirement.txt')##########['pandas','numpy','seaborn']
+    install_require = get_requirements('requirements.txt')##########['pandas','numpy','seaborn']
 )
